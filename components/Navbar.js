@@ -1,0 +1,12 @@
+import React from 'react'
+
+const earth= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMESURBVHgBtZmNdaMwDMedm4ANygZlg7BBexM0G9ANYAOyAd2A24BkgvQmcDZINvifVEzqOP4++ntPj4BlWVhCNmQjMgFQ0+GZhI8VSaGEuZKclXySHDebzUH8NORUQdKRXJCOJBlISrE2yrE91mNYzVEy9I68GQshSd7E/4DwrE0kDUlF8qT1eyL5QBy9SAVzSCeHQZ7NlnU8/XdIY/TZsw0w5hoKODeodmlpm2Kdc4W1CfSr4Z71OyfoWDqc9Icb9rvnkG4D/TrEMWl9OI1OFp131yCuuwo594p4GqOvzUmekFsa/dL0W5LSGL+jFeAo/DyJeK76Cdnm89/G9UL58o2aPWc4fKhZiK2TPeaSVOqzBHtqFfogg0WhFJFgLjs51JqNyWhr9QGk0ThYnKjUnfbqhvrlLjE/wbFY66jFxkV4jG+Nzq6ntFftsQ+KhCcyeEyV2hYeaXQqPQNelHMScbTCnyq9od/wU1wZelfjXA9FR/LHaBvF49Pv4hxo/2ucf82grVjWupaa5UY7H5FHaAbNaElb3KGulR5DO+QxBhwsTD84xLbFn69NpPCGlF1GGM7XytWoCvedHxt2U4Q5kHyI+d3irGaXQ87HSsTnIMNOcB4f1W927JbXD/4gbbcsYeyCMecNh3yCPZ9jKDRbdyG2FekYOtf0YH5FSOVF9TVr8olz8FOk0y5GTShcezrwluks4lny/Nm4fmavG6QjY0YlvS3Cm1imVPqmbpu6ji4MIgH46+ZJ6dhWrO1iIPW18iXRwcpja1Q6g3H9K0rLhnUv0rimKFNe+vL8ijnEO+P64fYLjxU8RNILN/wrj4S9kpSmkR7xcL2LXmGQXsoGm5GUrTvUoK8Bx9hm6sZCwrUPQEaR9TiX+03Hnz5IDLXDRok84r7TIK64MpOlr+uFPMRJxJIwyMXo0yEvrBNytnWIC7fE/CDkfkNM//xmOLlD3o4nBN9QI9YAc9IPWI/bO/WqaI5KpBP88GljIzLBvNOoxfeWn0X/G4KF1+ADHyM+Qln5B/Jr+ieJdfjwAAAAAElFTkSuQmCC"
+
+export default function Navbar() {
+    
+    return (
+        <nav className='nav-logo'>
+            <img alt='earth' src={earth}/><h1>My Travel Journey</h1>
+        </nav>
+    )
+}
